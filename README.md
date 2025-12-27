@@ -1,19 +1,91 @@
-Wallpaper app
-A beautiful and functional wallpaper application built with Flutter, allowing users to browse and set stunning high-resolution wallpapers from API Provider Pexels.
-*✨ Features*
-*Vast Collection: Browse thousands of high-quality wallpapers using the Pexels API.
-*Categories & Search: Easily find specific wallpapers with search functionality and category filters.
-*Preview: See how wallpapers look on your home or lock screen before applying.
-*Set Wallpaper: Instantly set images as your home screen, lock screen, or both (Android only, iOS functionality may vary).
-*Dynamic Theming: App UI color changes dynamically based on the current wallpaper (optional feature).
-*💻 Technologies Used*
-*Flutter: The UI toolkit used to build the cross-platform application.
-*Pexels API: Source for fetching diverse and high-resolution images.
-*flutter_wallpaper_manager: For setting the device wallpaper programmatically.
-*🤝 Contributing*
-Contributions are welcome! If you have suggestions for new features or bug fixes, please open an issue or submit a pull request.
-*📄 License*
-This project is licensed under the [LICENSE Name, e.g., MIT License] - see the LICENSE file for details.
-*📧 Contact*
-Zidhan Muhammed: zidhanmohd96@gmail.com
-Project Link: https://github.com/zidhanmohd96-coder/Wallpaper-App
+# 🌄 Wallpaper App — Flutter
+
+A beautiful and functional wallpaper application built using **Flutter**, allowing users to browse and set stunning high-resolution wallpapers powered by the **Pexels API**.
+
+---
+
+## ✨ Features
+
+* ✅ **Vast Collection** — Browse thousands of HD wallpapers from Pexels API
+* 👀 **Live Preview** — View wallpaper before applying
+* 📱 **Set Wallpaper**
+* ⚡ **Fast & Smooth UI** — Optimized performance
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology                | Purpose                        |
+| ------------------------- | ------------------------------ |
+| Flutter                   | Cross-platform UI framework    |
+| Pexels API                | Wallpaper image source         |
+| flutter_wallpaper_manager | Set wallpaper programmatically |
+
+---
+
+## 📦 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/zidhanmohd96-coder/Wallpaper-App.git
+cd Wallpaper-App
+```
+
+Install dependencies
+
+```bash
+flutter pub get
+```
+
+Run the app
+
+```bash
+flutter run
+```
+
+---
+
+## 🔑 API Configuration
+
+Create a file:
+
+```
+lib/config/api_keys.dart
+```
+
+Add your **Pexels API Key**:
+
+```dart
+const String pexelsApiKey = "YOUR_API_KEY_HERE";
+```
+
+Get your API key from: [https://www.pexels.com/api/](https://www.pexels.com/api/)
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+* Fork the repo
+* Create a feature branch
+* Submit a pull request
+
+Feel free to open an **issue** for suggestions or bugs.
+
+---
+
+## 📧 Contact
+
+**Zidhan Muhammed**
+📩 Email — [zidhanmohd96@gmail.com](mailto:zidhanmohd96@gmail.com)
+🔗 GitHub — [https://github.com/zidhanmohd96-coder/Wallpaper-App](https://github.com/zidhanmohd96-coder/Wallpaper-App)
+
+---
+
+## ⭐ Support
+
+If you like this project, please consider giving it a ⭐ on GitHub — it motivates further development!
+
+---
